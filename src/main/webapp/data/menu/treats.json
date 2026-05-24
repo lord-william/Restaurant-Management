@@ -1,0 +1,365 @@
+{
+  "categoryName": "Treats",
+  "items": [
+    {
+      "id": "treat-001",
+      "name": "Choc Cake",
+      "description": "Rich chocolate cake with ganache frosting and decorative piping",
+      "basePrice": 35.00,
+      "price": 35.00,
+      "image": "/images/All/chocolate_cake.jpg",
+      "nutritionalInfo": {
+        "servingSize": "100g",
+        "calories": 370,
+        "totalFat": { "value": 20, "unit": "g", "dailyValue": 26 },
+        "saturatedFat": { "value": 9.5, "unit": "g", "dailyValue": 48 },
+        "totalCarbohydrate": { "value": 45, "unit": "g", "dailyValue": 16 },
+        "dietaryFiber": { "value": 2.5, "unit": "g", "dailyValue": 9 },
+        "totalSugars": { "value": 30.5, "unit": "g" },
+        "protein": { "value": 4.8, "unit": "g" }
+      },
+      "allergens": ["Gluten", "Dairy", "Eggs"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "treat-002",
+      "name": "Eet-Sum-Mor",
+      "description": "Baker's Eet-Sum-Mor Original Shortbread Biscuits made with quality ingredients",
+      "basePrice": 18.50,
+      "price": 18.50,
+      "image": "/images/All/eat_sum_more.jpg",
+      "nutritionalInfo": {
+        "servingSize": "100g",
+        "calories": 510,
+        "totalFat": { "value": 26, "unit": "g", "dailyValue": 33 },
+        "saturatedFat": { "value": 15, "unit": "g", "dailyValue": 75 },
+        "totalCarbohydrate": { "value": 60, "unit": "g", "dailyValue": 22 },
+        "dietaryFiber": { "value": 1.5, "unit": "g", "dailyValue": 5 },
+        "totalSugars": { "value": 25, "unit": "g" },
+        "protein": { "value": 7, "unit": "g" }
+      },
+      "allergens": ["Gluten", "Milk"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "treat-003",
+      "name": "Choc Chip Biscuits",
+      "description": "Baker's Eet-Sum-Mor Chocolate Chip Shortbread Biscuits with 11% chocolate chips",
+      "basePrice": 19.50,
+      "price": 19.50,
+      "image": "/images/All/eat_sum_more_chocolate.jpg",
+      "nutritionalInfo": {
+        "servingSize": "100g",
+        "calories": 525,
+        "totalFat": { "value": 27, "unit": "g", "dailyValue": 35 },
+        "saturatedFat": { "value": 16, "unit": "g", "dailyValue": 80 },
+        "totalCarbohydrate": { "value": 62, "unit": "g", "dailyValue": 23 },
+        "dietaryFiber": { "value": 2, "unit": "g", "dailyValue": 7 },
+        "totalSugars": { "value": 28, "unit": "g" },
+        "protein": { "value": 7, "unit": "g" }
+      },
+      "allergens": ["Gluten", "Milk", "Soya"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "treat-004",
+      "name": "Custard Creams",
+      "description": "Baker's Topper Custard Flavoured Cream Biscuits, 125g pack",
+      "basePrice": 15.90,
+      "price": 15.90,
+      "image": "/images/All/toppers_custard.jpg",
+      "nutritionalInfo": {
+        "servingSize": "100g",
+        "calories": 490,
+        "totalFat": { "value": 23, "unit": "g", "dailyValue": 29 },
+        "saturatedFat": { "value": 12, "unit": "g", "dailyValue": 60 },
+        "totalCarbohydrate": { "value": 65, "unit": "g", "dailyValue": 24 },
+        "dietaryFiber": { "value": 1.2, "unit": "g", "dailyValue": 4 },
+        "totalSugars": { "value": 30, "unit": "g" },
+        "protein": { "value": 6, "unit": "g" }
+      },
+      "allergens": ["Gluten", "May contain Milk"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "treat-005",
+      "name": "Mint Choc Biscuits",
+      "description": "Baker's Topper Mint Chocolate Cream Biscuits, 125g pack",
+      "basePrice": 16.90,
+      "price": 16.90,
+      "image": "/images/All/toppers_mint.jpg",
+      "nutritionalInfo": {
+        "servingSize": "100g",
+        "calories": 495,
+        "totalFat": { "value": 24, "unit": "g", "dailyValue": 31 },
+        "saturatedFat": { "value": 13, "unit": "g", "dailyValue": 65 },
+        "totalCarbohydrate": { "value": 64, "unit": "g", "dailyValue": 23 },
+        "dietaryFiber": { "value": 1.8, "unit": "g", "dailyValue": 6 },
+        "totalSugars": { "value": 32, "unit": "g" },
+        "protein": { "value": 6, "unit": "g" }
+      },
+      "allergens": ["Gluten", "May contain Milk"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "treat-006",
+      "name": "Vanilla Creams",
+      "description": "Baker's Topper Vanilla Flavoured Cream Biscuits, 125g pack",
+      "basePrice": 15.90,
+      "price": 15.90,
+      "image": "/images/All/topper_vanilla.jpg",
+      "nutritionalInfo": {
+        "servingSize": "100g",
+        "calories": 485,
+        "totalFat": { "value": 22, "unit": "g", "dailyValue": 28 },
+        "saturatedFat": { "value": 11, "unit": "g", "dailyValue": 55 },
+        "totalCarbohydrate": { "value": 65, "unit": "g", "dailyValue": 24 },
+        "dietaryFiber": { "value": 1, "unit": "g", "dailyValue": 4 },
+        "totalSugars": { "value": 29, "unit": "g" },
+        "protein": { "value": 6, "unit": "g" }
+      },
+      "allergens": ["Gluten", "May contain Milk"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "treat-007",
+      "name": "Sour Cream & Onion",
+      "description": "Lay's Sour Cream & Onion Flavored Potato Chips",
+      "basePrice": 12.90,
+      "price": 12.90,
+      "image": "/images/All/lays.jpg",
+      "nutritionalInfo": {
+        "servingSize": "100g",
+        "calories": 540,
+        "totalFat": { "value": 34, "unit": "g", "dailyValue": 44 },
+        "saturatedFat": { "value": 3.5, "unit": "g", "dailyValue": 18 },
+        "totalCarbohydrate": { "value": 53, "unit": "g", "dailyValue": 19 },
+        "dietaryFiber": { "value": 4.5, "unit": "g", "dailyValue": 16 },
+        "totalSugars": { "value": 3, "unit": "g" },
+        "protein": { "value": 6, "unit": "g" }
+      },
+      "allergens": ["Milk"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "treat-008",
+      "name": "All Dressed Chips",
+      "description": "Lay's All Dressed Potato Chips with a combination of savory, tangy and sweet flavors",
+      "basePrice": 12.90,
+      "price": 12.90,
+      "image": "/images/All/lays_alldressed_potato.jpg",
+      "nutritionalInfo": {
+        "servingSize": "100g",
+        "calories": 550,
+        "totalFat": { "value": 36, "unit": "g", "dailyValue": 46 },
+        "saturatedFat": { "value": 3.5, "unit": "g", "dailyValue": 18 },
+        "totalCarbohydrate": { "value": 53, "unit": "g", "dailyValue": 19 },
+        "dietaryFiber": { "value": 4, "unit": "g", "dailyValue": 14 },
+        "totalSugars": { "value": 5, "unit": "g" },
+        "protein": { "value": 6, "unit": "g" }
+      },
+      "allergens": ["May contain Milk"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "treat-009",
+      "name": "BBQ Chips",
+      "description": "Lay's Barbecue Flavored Potato Chips with smoky BBQ seasoning",
+      "basePrice": 12.90,
+      "price": 12.90,
+      "image": "/images/All/lays_bbq.jpg", 
+      "nutritionalInfo": {
+        "servingSize": "100g",
+        "calories": 545,
+        "totalFat": { "value": 35, "unit": "g", "dailyValue": 45 },
+        "saturatedFat": { "value": 3.5, "unit": "g", "dailyValue": 18 },
+        "totalCarbohydrate": { "value": 53, "unit": "g", "dailyValue": 19 },
+        "dietaryFiber": { "value": 4, "unit": "g", "dailyValue": 14 },
+        "totalSugars": { "value": 6, "unit": "g" },
+        "protein": { "value": 6, "unit": "g" }
+      },
+      "allergens": ["May contain Milk"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "treat-010",
+      "name": "Classic Chips",
+      "description": "Lay's Classic Potato Chips - Simple, crispy potato chips with salt",
+      "basePrice": 12.90,
+      "price": 12.90,
+      "image": "/images/All/lays_classic.jpg",
+      "nutritionalInfo": {
+        "servingSize": "100g",
+        "calories": 536,
+        "totalFat": { "value": 34, "unit": "g", "dailyValue": 44 },
+        "saturatedFat": { "value": 3, "unit": "g", "dailyValue": 15 },
+        "totalCarbohydrate": { "value": 51, "unit": "g", "dailyValue": 19 },
+        "dietaryFiber": { "value": 4, "unit": "g", "dailyValue": 14 },
+        "totalSugars": { "value": 0.5, "unit": "g" },
+        "protein": { "value": 7, "unit": "g" }
+      },
+      "allergens": ["None"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "treat-011",
+      "name": "5 Star Bar",
+      "description": "Cadbury 5 Star Chocolate Bar, 48.5g",
+      "basePrice": 9.90,
+      "price": 9.90,
+      "image": "/images/All/chocolate_5star.png",
+      "nutritionalInfo": {
+        "servingSize": "100g",
+        "calories": 515,
+        "totalFat": { "value": 26, "unit": "g", "dailyValue": 33 },
+        "saturatedFat": { "value": 15, "unit": "g", "dailyValue": 75 },
+        "totalCarbohydrate": { "value": 63, "unit": "g", "dailyValue": 23 },
+        "dietaryFiber": { "value": 1.5, "unit": "g", "dailyValue": 5 },
+        "totalSugars": { "value": 54, "unit": "g" },
+        "protein": { "value": 4, "unit": "g" }
+      },
+      "allergens": ["Milk", "May contain Nuts"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "treat-012",
+      "name": "Astros Candy",
+      "description": "Cadbury Astros Candy and Chocolate Coated Biscuit Bites, 40g",
+      "basePrice": 15.50,
+      "price": 15.50,
+      "image": "/images/All/astros_candy.png",
+      "nutritionalInfo": {
+        "servingSize": "100g",
+        "calories": 490,
+        "totalFat": { "value": 22, "unit": "g", "dailyValue": 28 },
+        "saturatedFat": { "value": 13, "unit": "g", "dailyValue": 65 },
+        "totalCarbohydrate": { "value": 70, "unit": "g", "dailyValue": 25 },
+        "dietaryFiber": { "value": 1, "unit": "g", "dailyValue": 4 },
+        "totalSugars": { "value": 56, "unit": "g" },
+        "protein": { "value": 5, "unit": "g" }
+      },
+      "allergens": ["Gluten", "Milk", "May contain Nuts"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "treat-013",
+      "name": "Dairy Milk",
+      "description": "Cadbury Dairy Milk Chocolate Bar, 150g",
+      "basePrice": 22.00,
+      "price": 22.00,
+      "image": "/images/All/chocolate.png",
+      "nutritionalInfo": {
+        "servingSize": "100g",
+        "calories": 530,
+        "totalFat": { "value": 30.0, "unit": "g" },
+        "saturatedFat": { "value": 18.0, "unit": "g" },
+        "totalCarbohydrate": { "value": 57.0, "unit": "g" },
+        "dietaryFiber": { "value": 0.0, "unit": "g" },
+        "totalSugars": { "value": 56.0, "unit": "g" },
+        "protein": { "value": 7.5, "unit": "g" }
+      },
+      "allergens": ["Milk", "May contain Nuts"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "treat-014",
+      "name": "Lunch Bar",
+      "description": "Cadbury Lunch Bar Chocolate with peanuts and rice crisps, 48g",
+      "basePrice": 15.00,
+      "price": 15.00,
+      "image": "/images/All/lunchbar.png",
+      "nutritionalInfo": {
+        "servingSize": "100g",
+        "calories": 510,
+        "totalFat": { "value": 26.0, "unit": "g" },
+        "saturatedFat": { "value": 14.0, "unit": "g" },
+        "totalCarbohydrate": { "value": 60.0, "unit": "g" },
+        "dietaryFiber": { "value": 1.8, "unit": "g" },
+        "totalSugars": { "value": 45.0, "unit": "g" },
+        "protein": { "value": 8.0, "unit": "g" }
+      },
+      "allergens": ["Milk", "Peanuts", "May contain other Nuts"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "treat-015",
+      "name": "Lunch Bar Dream",
+      "description": "Cadbury Lunch Bar Dream white chocolate version, 48g",
+      "basePrice": 15.00,
+      "price": 15.00,
+      "image": "/images/All/lunchbar_dream.png",
+      "nutritionalInfo": {
+        "servingSize": "100g",
+        "calories": 505,
+        "totalFat": { "value": 26.0, "unit": "g" },
+        "saturatedFat": { "value": 14.0, "unit": "g" },
+        "totalCarbohydrate": { "value": 60.0, "unit": "g" },
+        "dietaryFiber": { "value": 1.5, "unit": "g" },
+        "totalSugars": { "value": 45.0, "unit": "g" },
+        "protein": { "value": 8.0, "unit": "g" }
+      },
+      "allergens": ["Milk", "Peanuts", "May contain other Nuts"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "treat-016",
+      "name": "PS Chocolate",
+      "description": "Cadbury PS Milk Chocolate Bar, 48g",
+      "basePrice": 12.00,
+      "price": 12.00,
+      "image": "/images/All/ps_chocolate.png",
+      "nutritionalInfo": {
+        "servingSize": "100g",
+        "calories": 520,
+        "totalFat": { "value": 29.0, "unit": "g" },
+        "saturatedFat": { "value": 17.0, "unit": "g" },
+        "totalCarbohydrate": { "value": 58.0, "unit": "g" },
+        "dietaryFiber": { "value": 0.5, "unit": "g" },
+        "totalSugars": { "value": 53.0, "unit": "g" },
+        "protein": { "value": 7.0, "unit": "g" }
+      },
+      "allergens": ["Milk", "May contain Nuts"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "treat-017",
+      "name": "Wine Gums",
+      "description": "Beacon Maynards Original Wine Gums, fruity flavored gummies, 100g",
+      "basePrice": 14.00,
+      "price": 14.00,
+      "image": "/images/All/maynards.png",
+      "nutritionalInfo": {
+        "servingSize": "100g",
+        "calories": 340,
+        "totalFat": { "value": 0.1, "unit": "g" },
+        "saturatedFat": { "value": 0.0, "unit": "g" },
+        "totalCarbohydrate": { "value": 80.0, "unit": "g" },
+        "dietaryFiber": { "value": 0.0, "unit": "g" },
+        "totalSugars": { "value": 55.0, "unit": "g" },
+        "protein": { "value": 0.0, "unit": "g" }
+      },
+      "allergens": ["None"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "treat-018",
+      "name": "Mint Smoothies",
+      "description": "Beacon Smoothies Mint Flavored Candy, 288g pack",
+      "basePrice": 15.00,
+      "price": 15.00,
+      "image": "/images/All/smoothies.png",
+      "nutritionalInfo": {
+        "servingSize": "100g",
+        "calories": 375,
+        "totalFat": { "value": 0.0, "unit": "g" },
+        "saturatedFat": { "value": 0.0, "unit": "g" },
+        "totalCarbohydrate": { "value": 93.0, "unit": "g" },
+        "dietaryFiber": { "value": 0.0, "unit": "g" },
+        "totalSugars": { "value": 70.0, "unit": "g" },
+        "protein": { "value": 0.0, "unit": "g" }
+      },
+      "allergens": ["None"],
+      "availableAt": [1, 2, 3]
+    }
+  ]
+}

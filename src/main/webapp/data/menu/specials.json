@@ -1,0 +1,105 @@
+{
+  "categoryName": "Specials",
+  "items": [
+    {
+      "id": "special-001",
+      "name": "Weekend Breakfast Bundle",
+      "description": "Enjoy our breakfast platter with fresh orange juice and coffee for a special price",
+      "basePrice": 70.00,
+      "price": 70.00,
+      "image": "/images/All/breakfast-bundle.png",
+      "nutritionalInfo": {
+        "servingSize": "Combo meal",
+        "calories": 780,
+        "totalFat": { "value": 42, "unit": "g", "dailyValue": 54 },
+        "saturatedFat": { "value": 14, "unit": "g", "dailyValue": 70 },
+        "totalCarbohydrate": { "value": 70, "unit": "g", "dailyValue": 25 },
+        "dietaryFiber": { "value": 3.5, "unit": "g", "dailyValue": 13 },
+        "totalSugars": { "value": 36, "unit": "g" },
+        "protein": { "value": 32, "unit": "g" }
+      },
+      "allergens": ["Eggs", "Gluten", "Milk"],
+      "availableAt": [1, 3]
+    },
+    {
+      "id": "special-002",
+      "name": "Student Meal Deal",
+      "description": "Hamburger, fries, and soft drink at a discounted price with valid student ID",
+      "basePrice": 50.00,
+      "price": 50.00,
+      "image": "/images/All/student-meal.png",
+      "nutritionalInfo": {
+        "servingSize": "Combo meal",
+        "calories": 850,
+        "totalFat": { "value": 45, "unit": "g", "dailyValue": 58 },
+        "saturatedFat": { "value": 15, "unit": "g", "dailyValue": 75 },
+        "totalCarbohydrate": { "value": 95, "unit": "g", "dailyValue": 34 },
+        "dietaryFiber": { "value": 5, "unit": "g", "dailyValue": 18 },
+        "totalSugars": { "value": 40, "unit": "g" },
+        "protein": { "value": 32, "unit": "g" }
+      },
+      "allergens": ["Gluten", "Milk", "May contain Sesame"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "special-003",
+      "name": "Family Dinner Package",
+      "description": "Feeds 4: Choice of 2 large pizzas, 4 soft drinks, and a chocolate cake",
+      "basePrice": 200.00,
+      "price": 200.00,
+      "image": "/images/All/family-dinner.png",
+      "nutritionalInfo": {
+        "servingSize": "Per person",
+        "calories": 950,
+        "totalFat": { "value": 40, "unit": "g", "dailyValue": 51 },
+        "saturatedFat": { "value": 16, "unit": "g", "dailyValue": 80 },
+        "totalCarbohydrate": { "value": 120, "unit": "g", "dailyValue": 43 },
+        "dietaryFiber": { "value": 6, "unit": "g", "dailyValue": 21 },
+        "totalSugars": { "value": 55, "unit": "g" },
+        "protein": { "value": 30, "unit": "g" }
+      },
+      "allergens": ["Gluten", "Milk", "Eggs"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "special-004",
+      "name": "Vegetarian Combo",
+      "description": "Veggie burger with sweet potato fries and a fresh fruit smoothie",
+      "basePrice": 75.00,
+      "price": 75.00,
+      "image": "/images/All/vegetarian-combo.png",
+      "nutritionalInfo": {
+        "servingSize": "Combo meal",
+        "calories": 720,
+        "totalFat": { "value": 30, "unit": "g", "dailyValue": 38 },
+        "saturatedFat": { "value": 5, "unit": "g", "dailyValue": 25 },
+        "totalCarbohydrate": { "value": 105, "unit": "g", "dailyValue": 38 },
+        "dietaryFiber": { "value": 14, "unit": "g", "dailyValue": 50 },
+        "totalSugars": { "value": 45, "unit": "g" },
+        "protein": { "value": 18, "unit": "g" }
+      },
+      "allergens": ["Gluten", "Soy", "May contain Seeds"],
+      "availableAt": [1, 3]
+    },
+    {
+      "id": "special-005",
+      "name": "Chef's Special",
+      "description": "Changing weekly: Ask your server about our chef's special of the week",
+      "basePrice": 65.00,
+      "price": 65.00,
+      "image": "/images/All/chefs-special.png",
+      "nutritionalInfo": {
+        "servingSize": "Varies",
+        "calories": 650,
+        "totalFat": { "value": 35, "unit": "g", "dailyValue": 45 },
+        "saturatedFat": { "value": 12, "unit": "g", "dailyValue": 60 },
+        "totalCarbohydrate": { "value": 60, "unit": "g", "dailyValue": 22 },
+        "dietaryFiber": { "value": 5, "unit": "g", "dailyValue": 18 },
+        "totalSugars": { "value": 15, "unit": "g" },
+        "protein": { "value": 35, "unit": "g" }
+      },
+      "allergens": ["Varies weekly - please ask server"],
+      "availableAt": [2, 3]
+    }
+  ]
+}

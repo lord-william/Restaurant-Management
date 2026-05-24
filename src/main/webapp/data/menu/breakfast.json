@@ -1,0 +1,85 @@
+{
+  "categoryName": "Breakfast",
+  "items": [
+    {
+      "id": "breakfast-001",
+      "name": "Scrambled Eggs",
+      "description": "Fluffy scrambled eggs with chives, served with toast",
+      "basePrice": 35.00,
+      "price": 35.00,
+      "image": "/images/All/scrumbledegg.jpg",
+      "nutritionalInfo": {
+        "servingSize": "150g",
+        "calories": 280,
+        "totalFat": { "value": 18, "unit": "g", "dailyValue": 23 },
+        "saturatedFat": { "value": 6, "unit": "g", "dailyValue": 30 },
+        "totalCarbohydrate": { "value": 15, "unit": "g", "dailyValue": 5 },
+        "dietaryFiber": { "value": 1, "unit": "g", "dailyValue": 4 },
+        "totalSugars": { "value": 2, "unit": "g" },
+        "protein": { "value": 16, "unit": "g" }
+      },
+      "allergens": ["Eggs", "Gluten (in toast)"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "breakfast-002",
+      "name": "Breakfast Sandwich",
+      "description": "Egg and cheese sandwich with your choice of bacon or sausage",
+      "basePrice": 40.00,
+      "price": 40.00,
+      "image": "/images/All/Sandwitch.jpg",
+      "nutritionalInfo": {
+        "servingSize": "180g",
+        "calories": 450,
+        "totalFat": { "value": 28, "unit": "g", "dailyValue": 36 },
+        "saturatedFat": { "value": 10, "unit": "g", "dailyValue": 50 },
+        "totalCarbohydrate": { "value": 30, "unit": "g", "dailyValue": 11 },
+        "dietaryFiber": { "value": 1, "unit": "g", "dailyValue": 4 },
+        "totalSugars": { "value": 3, "unit": "g" },
+        "protein": { "value": 22, "unit": "g" }
+      },
+      "allergens": ["Eggs", "Milk", "Gluten"],
+      "availableAt": [1, 2]
+    },
+    {
+      "id": "breakfast-003",
+      "name": "Oatmeal",
+      "description": "Steel-cut oatmeal served with brown sugar, raisins, and fresh fruit",
+      "basePrice": 30.00,
+      "price": 30.00,
+      "image": "/images/All/oats.jpg",
+      "nutritionalInfo": {
+        "servingSize": "250g",
+        "calories": 320,
+        "totalFat": { "value": 6, "unit": "g", "dailyValue": 8 },
+        "saturatedFat": { "value": 1, "unit": "g", "dailyValue": 5 },
+        "totalCarbohydrate": { "value": 60, "unit": "g", "dailyValue": 22 },
+        "dietaryFiber": { "value": 8, "unit": "g", "dailyValue": 29 },
+        "totalSugars": { "value": 18, "unit": "g" },
+        "protein": { "value": 8, "unit": "g" }
+      },
+      "allergens": ["May contain Gluten"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "breakfast-004",
+      "name": "Breakfast Platter",
+      "description": "Two eggs any style, bacon or sausage, toast, and fresh fruit",
+      "basePrice": 55.00,
+      "price": 55.00,
+      "image": "/images/All/Sandwitch.jpg",
+      "nutritionalInfo": {
+        "servingSize": "350g",
+        "calories": 650,
+        "totalFat": { "value": 42, "unit": "g", "dailyValue": 54 },
+        "saturatedFat": { "value": 14, "unit": "g", "dailyValue": 70 },
+        "totalCarbohydrate": { "value": 40, "unit": "g", "dailyValue": 14 },
+        "dietaryFiber": { "value": 3, "unit": "g", "dailyValue": 11 },
+        "totalSugars": { "value": 10, "unit": "g" },
+        "protein": { "value": 30, "unit": "g" }
+      },
+      "allergens": ["Eggs", "Gluten"],
+      "availableAt": [1, 3]
+    }
+  ]
+}

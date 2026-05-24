@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="3.0" xmlns="https://jakarta.ee/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd">
+    <!-- Define Persistence Unit for GlassFish with JTA Data Source -->
+    <persistence-unit name="RestaurantPU" transaction-type="JTA">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        
+        <!-- JNDI lookup for our PostgreSQL pool -->
+        <jta-data-source>jdbc/restaurantDB</jta-data-source>
+
+        <!-- Entity classes -->
+        <class>com.mycompany.restaurantmanagement.model.User</class>
+        <class>com.mycompany.restaurantmanagement.model.MenuCategory</class>
+        <class>com.mycompany.restaurantmanagement.model.MenuItem</class>
+        <class>com.mycompany.restaurantmanagement.model.Order</class>
+        <class>com.mycompany.restaurantmanagement.model.OrderItem</class>
+        <exclude-unlisted-classes>false</exclude-unlisted-classes>
+        
+        <properties>
+            <!-- Critical: Force PostgreSQL and disable any automatic schema generation -->
+            <property name="jakarta.persistence.schema-generation.database.action" value="none"/>
+            <property name="eclipselink.target-database" value="org.eclipse.persistence.platform.database.PostgreSQLPlatform"/>
+            
+            <!-- Enable logging for debugging -->
+            <property name="eclipselink.logging.level" value="FINE"/>
+            <property name="eclipselink.logging.level.sql" value="FINE"/>
+            <property name="eclipselink.logging.parameters" value="true"/>
+        </properties>
+    </persistence-unit>
+</persistence>

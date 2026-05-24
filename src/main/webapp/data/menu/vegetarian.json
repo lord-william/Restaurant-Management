@@ -1,0 +1,145 @@
+{
+  "categoryName": "Vegetarian",
+  "items": [
+    {
+      "id": "veg-001",
+      "name": "Vegetable Stir Fry",
+      "description": "Fresh vegetables stir-fried with ginger, garlic, and soy sauce, served with rice",
+      "basePrice": 45.00,
+      "price": 45.00,
+      "image": "/images/All/vegetable-stir-fry.png",
+      "nutritionalInfo": {
+        "servingSize": "300g",
+        "calories": 320,
+        "totalFat": { "value": 10, "unit": "g", "dailyValue": 13 },
+        "saturatedFat": { "value": 1.5, "unit": "g", "dailyValue": 8 },
+        "totalCarbohydrate": { "value": 50, "unit": "g", "dailyValue": 18 },
+        "dietaryFiber": { "value": 6, "unit": "g", "dailyValue": 21 },
+        "totalSugars": { "value": 10, "unit": "g" },
+        "protein": { "value": 8, "unit": "g" }
+      },
+      "allergens": ["Soy"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "veg-002",
+      "name": "Veggie Burger",
+      "description": "Plant-based burger patty with lettuce, tomato, onion, and vegan mayo, served with sweet potato fries",
+      "basePrice": 50.00,
+      "price": 50.00,
+      "image": "/images/All/veggie-burger.png",
+      "nutritionalInfo": {
+        "servingSize": "350g",
+        "calories": 520,
+        "totalFat": { "value": 25, "unit": "g", "dailyValue": 32 },
+        "saturatedFat": { "value": 3, "unit": "g", "dailyValue": 15 },
+        "totalCarbohydrate": { "value": 65, "unit": "g", "dailyValue": 24 },
+        "dietaryFiber": { "value": 10, "unit": "g", "dailyValue": 36 },
+        "totalSugars": { "value": 12, "unit": "g" },
+        "protein": { "value": 15, "unit": "g" }
+      },
+      "allergens": ["Gluten", "Soy", "May contain seeds"],
+      "availableAt": [1, 3]
+    },
+    {
+      "id": "veg-003",
+      "name": "Mushroom Risotto",
+      "description": "Creamy risotto with sautéed mushrooms, parmesan cheese, and fresh herbs",
+      "basePrice": 55.00,
+      "price": 55.00,
+      "image": "/images/All/mushrooms.jpg",
+      "nutritionalInfo": {
+        "servingSize": "280g",
+        "calories": 420,
+        "totalFat": { "value": 18, "unit": "g", "dailyValue": 23 },
+        "saturatedFat": { "value": 7, "unit": "g", "dailyValue": 35 },
+        "totalCarbohydrate": { "value": 55, "unit": "g", "dailyValue": 20 },
+        "dietaryFiber": { "value": 3, "unit": "g", "dailyValue": 11 },
+        "totalSugars": { "value": 2, "unit": "g" },
+        "protein": { "value": 10, "unit": "g" }
+      },
+      "allergens": ["Milk"],
+      "availableAt": [2, 3]
+    },
+    {
+      "id": "veg-004",
+      "name": "Mediterranean Platter",
+      "description": "Falafel, hummus, tabbouleh, olives, and pita bread",
+      "basePrice": 60.00,
+      "price": 60.00,
+      "image": "/images/All/mediterranean-platter.png",
+      "nutritionalInfo": {
+        "servingSize": "350g",
+        "calories": 550,
+        "totalFat": { "value": 28, "unit": "g", "dailyValue": 36 },
+        "saturatedFat": { "value": 4, "unit": "g", "dailyValue": 20 },
+        "totalCarbohydrate": { "value": 62, "unit": "g", "dailyValue": 23 },
+        "dietaryFiber": { "value": 12, "unit": "g", "dailyValue": 43 },
+        "totalSugars": { "value": 8, "unit": "g" },
+        "protein": { "value": 18, "unit": "g" }
+      },
+      "allergens": ["Gluten", "Sesame"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "veg-005",
+      "name": "Vegetable Curry",
+      "description": "Mixed vegetable curry with coconut milk and aromatic spices, served with basmati rice",
+      "basePrice": 50.00,
+      "price": 50.00,
+      "image": "/images/All/vegetable-curry.png",
+      "nutritionalInfo": {
+        "servingSize": "350g",
+        "calories": 480,
+        "totalFat": { "value": 22, "unit": "g", "dailyValue": 28 },
+        "saturatedFat": { "value": 16, "unit": "g", "dailyValue": 80 },
+        "totalCarbohydrate": { "value": 65, "unit": "g", "dailyValue": 24 },
+        "dietaryFiber": { "value": 8, "unit": "g", "dailyValue": 29 },
+        "totalSugars": { "value": 10, "unit": "g" },
+        "protein": { "value": 10, "unit": "g" }
+      },
+      "allergens": ["May contain traces of nuts"],
+      "availableAt": [1, 2]
+    },
+    {
+      "id": "veg-006",
+      "name": "Eggplant Parmesan",
+      "description": "Baked eggplant with tomato sauce, mozzarella, and parmesan cheese, served with garlic bread",
+      "basePrice": 48.00,
+      "price": 48.00,
+      "image": "/images/All/eggplant-parmesan.png",
+      "nutritionalInfo": {
+        "servingSize": "300g",
+        "calories": 450,
+        "totalFat": { "value": 24, "unit": "g", "dailyValue": 31 },
+        "saturatedFat": { "value": 10, "unit": "g", "dailyValue": 50 },
+        "totalCarbohydrate": { "value": 40, "unit": "g", "dailyValue": 14 },
+        "dietaryFiber": { "value": 6, "unit": "g", "dailyValue": 21 },
+        "totalSugars": { "value": 12, "unit": "g" },
+        "protein": { "value": 18, "unit": "g" }
+      },
+      "allergens": ["Milk", "Gluten"],
+      "availableAt": [2, 3]
+    },
+    {
+      "id": "veg-007",
+      "name": "Falafel Wrap",
+      "description": "Crispy falafel with tahini sauce, lettuce, tomato, and cucumber in a whole wheat wrap",
+      "basePrice": 40.00,
+      "price": 40.00,
+      "image": "/images/All/falafel-wrap.png",
+      "nutritionalInfo": {
+        "servingSize": "250g",
+        "calories": 380,
+        "totalFat": { "value": 16, "unit": "g", "dailyValue": 21 },
+        "saturatedFat": { "value": 2.5, "unit": "g", "dailyValue": 13 },
+        "totalCarbohydrate": { "value": 48, "unit": "g", "dailyValue": 17 },
+        "dietaryFiber": { "value": 8, "unit": "g", "dailyValue": 29 },
+        "totalSugars": { "value": 6, "unit": "g" },
+        "protein": { "value": 14, "unit": "g" }
+      },
+      "allergens": ["Gluten", "Sesame"],
+      "availableAt": [1, 2, 3]
+    }
+  ]
+}

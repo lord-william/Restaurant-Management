@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="3.0" xmlns="https://jakarta.ee/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd">
+    <!-- Define Persistence Unit -->
+    <persistence-unit name="RestaurantPU" transaction-type="JTA">
+        <!-- Force use of provider class for PostgreSQL -->
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        
+        <!-- Entity classes -->
+        <class>com.mycompany.restaurantmanagement.model.User</class>
+        <class>com.mycompany.restaurantmanagement.model.MenuCategory</class>
+        <class>com.mycompany.restaurantmanagement.model.MenuItem</class>
+        <class>com.mycompany.restaurantmanagement.model.Order</class>
+        <class>com.mycompany.restaurantmanagement.model.OrderItem</class>
+        <exclude-unlisted-classes>false</exclude-unlisted-classes>
+        
+        <properties>
+            <!-- Supabase PostgreSQL connection -->
+            <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://aws-1-eu-central-1.pooler.supabase.com:5432/postgres?sslmode=require"/>
+            <property name="jakarta.persistence.jdbc.user" value="postgres.smwhyqvrcvmvdcaklvyd"/>
+            <property name="jakarta.persistence.jdbc.password" value="Wm0715490363!"/>
+            
+            <!-- Database schema generation options - don't create or modify tables -->
+            <property name="jakarta.persistence.schema-generation.database.action" value="none"/>
+            
+            <!-- PostgreSQL-specific properties -->
+            <property name="eclipselink.target-database" value="PostgreSQL"/>
+            <property name="eclipselink.logging.level" value="FINE"/>
+            <property name="eclipselink.logging.parameters" value="true"/>
+            
+            <!-- Disable Derby -->
+            <property name="eclipselink.exclude-eclipselink-orm" value="true"/>
+            <property name="eclipselink.ddl-generation" value="none"/>
+        </properties>
+    </persistence-unit>
+</persistence>

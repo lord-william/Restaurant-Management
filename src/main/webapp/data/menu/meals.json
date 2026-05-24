@@ -1,0 +1,85 @@
+{
+  "categoryName": "Meals",
+  "items": [
+    {
+      "id": "meal-001",
+      "name": "Macaroni & Cheese",
+      "description": "Creamy homemade mac and cheese with a crispy top layer",
+      "basePrice": 45.00,
+      "price": 45.00,
+      "image": "/images/All/macaronindcheese.jpg",
+      "nutritionalInfo": {
+        "servingSize": "250g",
+        "calories": 380,
+        "totalFat": { "value": 16, "unit": "g", "dailyValue": 21 },
+        "saturatedFat": { "value": 9, "unit": "g", "dailyValue": 45 },
+        "totalCarbohydrate": { "value": 42, "unit": "g", "dailyValue": 15 },
+        "dietaryFiber": { "value": 2, "unit": "g", "dailyValue": 7 },
+        "totalSugars": { "value": 5, "unit": "g" },
+        "protein": { "value": 18, "unit": "g" }
+      },
+      "allergens": ["Gluten", "Milk"],
+      "availableAt": [1, 3]
+    },
+    {
+      "id": "meal-002",
+      "name": "Hamburger",
+      "description": "Fresh grilled beef patty with lettuce, tomato, and special sauce",
+      "basePrice": 45.00,
+      "price": 45.00,
+      "image": "/images/All/hampburger.jpg",
+      "nutritionalInfo": {
+        "servingSize": "180g",
+        "calories": 420,
+        "totalFat": { "value": 22, "unit": "g", "dailyValue": 28 },
+        "saturatedFat": { "value": 7, "unit": "g", "dailyValue": 35 },
+        "totalCarbohydrate": { "value": 35, "unit": "g", "dailyValue": 13 },
+        "dietaryFiber": { "value": 2, "unit": "g", "dailyValue": 7 },
+        "totalSugars": { "value": 6, "unit": "g" },
+        "protein": { "value": 25, "unit": "g" }
+      },
+      "allergens": ["Gluten", "May contain Sesame"],
+      "availableAt": [1, 3]
+    },
+    {
+      "id": "meal-003",
+      "name": "Margherita Pizza",
+      "description": "Classic margherita pizza with fresh mozzarella and basil",
+      "basePrice": 55.00,
+      "price": 55.00,
+      "image": "/images/All/pizza.jpg",
+      "nutritionalInfo": {
+        "servingSize": "250g slice",
+        "calories": 450,
+        "totalFat": { "value": 18, "unit": "g", "dailyValue": 23 },
+        "saturatedFat": { "value": 8, "unit": "g", "dailyValue": 40 },
+        "totalCarbohydrate": { "value": 55, "unit": "g", "dailyValue": 20 },
+        "dietaryFiber": { "value": 3, "unit": "g", "dailyValue": 11 },
+        "totalSugars": { "value": 6, "unit": "g" },
+        "protein": { "value": 20, "unit": "g" }
+      },
+      "allergens": ["Gluten", "Milk"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "meal-004",
+      "name": "Beef Burger & Fries",
+      "description": "Juicy beef burger with lettuce, cheese, and a side of crispy fries",
+      "basePrice": 60.00,
+      "price": 60.00,
+      "image": "/images/All/beefburger.jpg",
+      "nutritionalInfo": {
+        "servingSize": "350g",
+        "calories": 750,
+        "totalFat": { "value": 42, "unit": "g", "dailyValue": 54 },
+        "saturatedFat": { "value": 15, "unit": "g", "dailyValue": 75 },
+        "totalCarbohydrate": { "value": 65, "unit": "g", "dailyValue": 24 },
+        "dietaryFiber": { "value": 4, "unit": "g", "dailyValue": 14 },
+        "totalSugars": { "value": 8, "unit": "g" },
+        "protein": { "value": 32, "unit": "g" }
+      },
+      "allergens": ["Gluten", "Milk", "May contain Sesame"],
+      "availableAt": [1, 2, 3]
+    }
+  ]
+}

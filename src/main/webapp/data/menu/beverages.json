@@ -1,0 +1,215 @@
+{
+  "categoryName": "Beverages",
+  "items": [
+    {
+      "id": "bev-001",
+      "name": "Fresh Orange Juice",
+      "description": "Freshly squeezed orange juice, 300ml",
+      "basePrice": 25.00,
+      "price": 25.00,
+      "image": "/images/All/liquifruit_orange.png",
+      "nutritionalInfo": {
+        "servingSize": "300ml",
+        "calories": 130,
+        "totalFat": { "value": 0.5, "unit": "g", "dailyValue": 1 },
+        "saturatedFat": { "value": 0, "unit": "g", "dailyValue": 0 },
+        "totalCarbohydrate": { "value": 30, "unit": "g", "dailyValue": 11 },
+        "dietaryFiber": { "value": 0.5, "unit": "g", "dailyValue": 2 },
+        "totalSugars": { "value": 26, "unit": "g" },
+        "protein": { "value": 2, "unit": "g" }
+      },
+      "allergens": ["None"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "bev-002",
+      "name": "Coca-Cola",
+      "description": "Classic Coca-Cola, 330ml can",
+      "basePrice": 15.00,
+      "price": 15.00,
+      "image": "/images/All/coca_cola.jpg",
+      "nutritionalInfo": {
+        "servingSize": "330ml",
+        "calories": 139,
+        "totalFat": { "value": 0, "unit": "g", "dailyValue": 0 },
+        "saturatedFat": { "value": 0, "unit": "g", "dailyValue": 0 },
+        "totalCarbohydrate": { "value": 35, "unit": "g", "dailyValue": 13 },
+        "dietaryFiber": { "value": 0, "unit": "g", "dailyValue": 0 },
+        "totalSugars": { "value": 35, "unit": "g" },
+        "protein": { "value": 0, "unit": "g" }
+      },
+      "allergens": ["None"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "bev-003",
+      "name": "Cappuccino",
+      "description": "Espresso with steamed milk and a layer of milk foam",
+      "basePrice": 22.00,
+      "price": 22.00,
+      "image": "/images/All/cappoccino.jpg",
+      "nutritionalInfo": {
+        "servingSize": "240ml",
+        "calories": 120,
+        "totalFat": { "value": 6, "unit": "g", "dailyValue": 8 },
+        "saturatedFat": { "value": 4, "unit": "g", "dailyValue": 20 },
+        "totalCarbohydrate": { "value": 10, "unit": "g", "dailyValue": 4 },
+        "dietaryFiber": { "value": 0, "unit": "g", "dailyValue": 0 },
+        "totalSugars": { "value": 10, "unit": "g" },
+        "protein": { "value": 6, "unit": "g" }
+      },
+      "allergens": ["Milk"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "bev-004",
+      "name": "Rooibos Tea",
+      "description": "South African Rooibos tea, served with honey and lemon on the side",
+      "basePrice": 18.00,
+      "price": 18.00,
+      "image": "/images/All/rooibos.jpg",
+      "nutritionalInfo": {
+        "servingSize": "240ml",
+        "calories": 2,
+        "totalFat": { "value": 0, "unit": "g", "dailyValue": 0 },
+        "saturatedFat": { "value": 0, "unit": "g", "dailyValue": 0 },
+        "totalCarbohydrate": { "value": 0, "unit": "g", "dailyValue": 0 },
+        "dietaryFiber": { "value": 0, "unit": "g", "dailyValue": 0 },
+        "totalSugars": { "value": 0, "unit": "g" },
+        "protein": { "value": 0, "unit": "g" }
+      },
+      "allergens": ["None"],
+      "availableAt": [1, 2, 3]
+    },
+    {
+      "id": "bev-005",
+      "name": "Smoothie",
+      "description": "Fresh fruit smoothie with yogurt",
+      "basePrice": 30.00,
+      "price": 30.00,
+      "image": "/images/All/smoothiee.jpg",
+      "variants": [
+        {
+          "id": "bev-005-1",
+          "name": "Strawberry Banana",
+          "description": "Strawberry and banana smoothie with yogurt and honey",
+          "price": 30.00,
+          "image": "/images/All/strawberry-banana-smoothie.png",
+          "nutritionalInfo": {
+            "servingSize": "350ml",
+            "calories": 200,
+            "totalFat": { "value": 3, "unit": "g", "dailyValue": 4 },
+            "saturatedFat": { "value": 1.5, "unit": "g", "dailyValue": 8 },
+            "totalCarbohydrate": { "value": 40, "unit": "g", "dailyValue": 14 },
+            "dietaryFiber": { "value": 4, "unit": "g", "dailyValue": 14 },
+            "totalSugars": { "value": 32, "unit": "g" },
+            "protein": { "value": 5, "unit": "g" }
+          },
+          "allergens": ["Milk"]
+        },
+        {
+          "id": "bev-005-2",
+          "name": "Mango Pineapple",
+          "description": "Mango and pineapple smoothie with yogurt and a hint of lime",
+          "price": 32.00,
+          "image": "/images/All/mango-pineapple-smoothie.png",
+          "nutritionalInfo": {
+            "servingSize": "350ml",
+            "calories": 220,
+            "totalFat": { "value": 2.5, "unit": "g", "dailyValue": 3 },
+            "saturatedFat": { "value": 1.5, "unit": "g", "dailyValue": 8 },
+            "totalCarbohydrate": { "value": 47, "unit": "g", "dailyValue": 17 },
+            "dietaryFiber": { "value": 3, "unit": "g", "dailyValue": 11 },
+            "totalSugars": { "value": 38, "unit": "g" },
+            "protein": { "value": 4, "unit": "g" }
+          },
+          "allergens": ["Milk"]
+        },
+        {
+          "id": "bev-005-3",
+          "name": "Green Machine",
+          "description": "Spinach, kale, banana, and pineapple smoothie with almond milk",
+          "price": 35.00,
+          "image": "/images/All/green-smoothie.png",
+          "nutritionalInfo": {
+            "servingSize": "350ml",
+            "calories": 180,
+            "totalFat": { "value": 4, "unit": "g", "dailyValue": 5 },
+            "saturatedFat": { "value": 0.5, "unit": "g", "dailyValue": 3 },
+            "totalCarbohydrate": { "value": 35, "unit": "g", "dailyValue": 13 },
+            "dietaryFiber": { "value": 6, "unit": "g", "dailyValue": 21 },
+            "totalSugars": { "value": 25, "unit": "g" },
+            "protein": { "value": 3, "unit": "g" }
+          },
+          "allergens": ["Nuts (Almond)"]
+        }
+      ],
+      "availableAt": [1, 2]
+    },
+    {
+      "id": "bev-006",
+      "name": "Ice Cream Shake",
+      "description": "Creamy milkshake made with premium ice cream",
+      "basePrice": 35.00,
+      "price": 35.00,
+      "image": "/images/All/milkshake.jpg",
+      "variants": [
+        {
+          "id": "bev-006-1",
+          "name": "Vanilla Shake",
+          "description": "Classic vanilla milkshake topped with whipped cream",
+          "price": 35.00,
+          "image": "/images/All/vanilla-shake.png",
+          "nutritionalInfo": {
+            "servingSize": "400ml",
+            "calories": 380,
+            "totalFat": { "value": 16, "unit": "g", "dailyValue": 21 },
+            "saturatedFat": { "value": 10, "unit": "g", "dailyValue": 50 },
+            "totalCarbohydrate": { "value": 55, "unit": "g", "dailyValue": 20 },
+            "dietaryFiber": { "value": 0, "unit": "g", "dailyValue": 0 },
+            "totalSugars": { "value": 50, "unit": "g" },
+            "protein": { "value": 7, "unit": "g" }
+          },
+          "allergens": ["Milk"]
+        },
+        {
+          "id": "bev-006-2",
+          "name": "Chocolate Shake",
+          "description": "Rich chocolate milkshake topped with whipped cream and chocolate syrup",
+          "price": 38.00,
+          "image": "/images/All/chocolate-shake.png",
+          "nutritionalInfo": {
+            "servingSize": "400ml",
+            "calories": 420,
+            "totalFat": { "value": 18, "unit": "g", "dailyValue": 23 },
+            "saturatedFat": { "value": 11, "unit": "g", "dailyValue": 55 },
+            "totalCarbohydrate": { "value": 60, "unit": "g", "dailyValue": 22 },
+            "dietaryFiber": { "value": 2, "unit": "g", "dailyValue": 7 },
+            "totalSugars": { "value": 54, "unit": "g" },
+            "protein": { "value": 8, "unit": "g" }
+          },
+          "allergens": ["Milk"]
+        },
+        {
+          "id": "bev-006-3",
+          "name": "Strawberry Shake",
+          "description": "Creamy strawberry milkshake with real strawberry pieces and whipped cream",
+          "price": 38.00,
+          "image": "/images/All/strawberry-shake.png",
+          "nutritionalInfo": {
+            "servingSize": "400ml",
+            "calories": 400,
+            "totalFat": { "value": 16, "unit": "g", "dailyValue": 21 },
+            "saturatedFat": { "value": 10, "unit": "g", "dailyValue": 50 },
+            "totalCarbohydrate": { "value": 58, "unit": "g", "dailyValue": 21 },
+            "dietaryFiber": { "value": 1, "unit": "g", "dailyValue": 4 },
+            "totalSugars": { "value": 52, "unit": "g" },
+            "protein": { "value": 7, "unit": "g" }
+          },
+          "allergens": ["Milk"]
+        }
+      ],
+      "availableAt": [1, 3]
+    }
+  ]
+}
